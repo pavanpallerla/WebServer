@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Home</title>
+<style>
+body {
+
+    background-color: #d0e4fe;
+
+text-align: center;
+
+}
+a:link {
+
+    color: #FF0000;
+
+font-size: 20px;
+
+text-align: center;
+
+}
+</style>
+<script type="text/javascript">
+var col = new String();
+var x=1;var y;
+
+function blink()
+
+{
+
+ if(x%2) 
+
+ {
+
+  col = "rgb(255,0,0)";
+
+ }else{
+
+  col = "rgb(255,255,255)";
+
+ }
+
+ million.style.color=col;x++;if(x>2){x=1};setTimeout("blink()",500);
+
+}
+
+</script>
+
+</head>
+
+<!body style="background-image:url(bg.jpg)">
+
+<body onload="blink()"">
+
+<h1>Welcome!!!</h1>
+
+<p><a id="million" href="/bg.jpg">Click here !!!</a></p>
+
+<img src="home.JPG"> </img>
+
+<p><a href="/dynamic/weather.html">Click here to get weather info!!!</a></p>
+
+<p><a href="/many.html">Images!!!</a></p>
+<p><a href="/1.mp4">Video!!!</a></p>
+</body>
+
+</html>
